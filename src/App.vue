@@ -1,9 +1,15 @@
 <script lang="ts">
+  import { defineComponent } from 'vue'
   import { VPdfViewer, type ToolbarOptions } from '@vpv/viewer';
-  const toolbarOptions: Partial<ToolbarOptions> | false = false
-export default {
-  components: { VPdfViewer }
-}
+  export default defineComponent({
+    components: { VPdfViewer },
+    data () {
+      const toolbarOptions: Partial<ToolbarOptions> | false = false
+      return {
+        toolbarOptions
+      }
+    }
+  })
 </script>
 
 <template>
