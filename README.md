@@ -1,6 +1,6 @@
 # VPV Starter Toolkit: Vue 3 + TypeScript + Options API
 
-Welcome to the Vue PDF Viewer (VPV) starter toolkit! This repository provides a comprehensive guide on how to use VPV with Vue 3 and TypeScript via the Options API. This repo showcases how VPV can be integrated and rendered as part of a Vue.js website.
+Welcome to the Vue PDF Viewer (VPV) starter toolkit! This repository provides a comprehensive guide on how to use VPV with Vue 3 and TypeScript via the Options API. This repo showcases how VPV can be integrated and rendered as part of a Vue.js project.
 
 ## Table of Contents
 - [Installation](#installation)
