@@ -30,7 +30,7 @@ npm install
     cd starter-vpv-options-ts
     ```
 
-2. **Install Dependencies**: Install the necessary dependencies using npm or yarn.
+2. **Install Dependencies**: Install the necessary dependencies using npm or yarn
 
     ```bash
     npm install
@@ -48,7 +48,7 @@ _Remark: For `pnpm`, there is a bit more configuration required which can be fou
 
 This repo includes an example project to demonstrate how to use VPV. To run the example project:
 
-1. **Serve the Application**: Use the following command to start the development server.
+1. **Serve the Application**: Use the following command to start the development server
 
     ```bash
     npm run serve
@@ -60,7 +60,7 @@ This repo includes an example project to demonstrate how to use VPV. To run the 
     bun install
     ```
 
-2. **Open in Browser**: Open your browser and navigate to `http://localhost:5173` (or the port specified in your terminal) to see the example project in action.
+2. **Open in Browser**: Open your browser and navigate to `http://localhost:5173` (or the port specified in your terminal) to see the example project in action
 
 ### Using the VPV Component
 
