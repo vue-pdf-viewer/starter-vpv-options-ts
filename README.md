@@ -69,7 +69,7 @@ Once the example project is running, you can explore the source code to see how 
     ```typescript
       <script lang="ts">
         import { defineComponent } from 'vue'
-        import { VPdfViewer, type ToolbarOptions } from '@vpv/viewer';
+        import { VPdfViewer, type ToolbarOptions } from '@vue-pdf-viewer/viewer';
         export default defineComponent({
           components: { VPdfViewer },
           data () {
