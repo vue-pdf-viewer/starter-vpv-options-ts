@@ -51,13 +51,13 @@ This repo includes an example project to demonstrate how to use VPV. To run the 
 1. **Serve the Application**: Use the following command to start the development server
 
     ```bash
-    npm run serve
+    npm run dev
     # or
-    yarn serve
+    yarn dev
     # or
-    pnpm install
+    pnpm run dev
     # or
-    bun install
+    bun run dev
     ```
 
 2. **Open in Browser**: Open your browser and navigate to `http://localhost:5173` (or the port specified in your terminal) to see the example project in action
@@ -104,7 +104,7 @@ For more examples, please refer to the `src/App.vue` file in this repository:
 
 _Remark: If you would like more examples, feel free to open an issue._
 
-For more configurations, please check the [documentation](https://docs-vue-pdf-viewer.logicspark.com) site.
+For more configurations, please check the [documentation](https://docs.vue-pdf-viewer.dev) site.
 
 ---
 
