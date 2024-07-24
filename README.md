@@ -42,7 +42,7 @@ npm install
     bun install
     ```
 
-_Remark: For `pnpm`, there is a bit more configuration required which can be found (here)[]._
+_Remark: For `pnpm`, there is a bit more configuration required which can be found [here](https://docs.vue-pdf-viewer.dev/troubleshooting.html#_3-resolving-peer-dependency-version-mismatch-with-pnpm)._
 
 ### Running the Example Project
 
