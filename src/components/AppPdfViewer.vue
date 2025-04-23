@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { defineComponent, InstanceType } from "vue";
-	import { VPdfViewer, VPVBaseProps, useLicense } from "@vue-pdf-viewer/viewer";
+	import { defineComponent } from "vue";
+	import { VPdfViewer, VPVBaseProps } from "@vue-pdf-viewer/viewer";
 	export default defineComponent({
 		components: { VPdfViewer },
 		props: {
@@ -8,9 +8,6 @@
 			title: {
 				type: String,
 			},
-		},
-		beforeMount() {
-			useLicense({ licenseKey: "your-license-key" });
 		},
 		mounted() {
 			this.$watch(
