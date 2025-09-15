@@ -3,7 +3,6 @@
 	import {
 		VPdfViewer,
 		type ToolbarOptions,
-		useLicense,
 	} from "@vue-pdf-viewer/viewer";
 	import AppPdfViewer from "./components/AppPdfViewer.vue";
 	export default defineComponent({
@@ -15,10 +14,7 @@
 					"https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compressed.tracemonkey-pldi-09.pdf",
 				toolbarOptions,
 			};
-		},
-		beforeMount() {
-			useLicense("YOUR_LICENSE_KEY");
-		},
+		}
 	});
 </script>
 
@@ -41,7 +37,8 @@
 			<VPdfViewer :src="pdfSrc" />
 		</div>
 		<AppPdfViewer
-			title="Shared Component"
+			title="Default Toolbar with Annotation"
+			annotate-enabled
 			:src="pdfSrc" />
 	</div>
 </template>
