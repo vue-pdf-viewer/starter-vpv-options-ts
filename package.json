@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vue-pdf-viewer/annotation": "latest",
     "@vue-pdf-viewer/viewer": "latest",
     "vue": "^3.5.13"
   },
